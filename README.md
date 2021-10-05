@@ -8,10 +8,10 @@ Simple authentication server build with golang
 
 | API | Method            | Description         |
 | ----------- | --------------- | --------- |
-| /api/register     | POST          |Create a new email and password user by issuing an HTTP `POST` request|
-| /api/login      | POST |Sign in a user with an email and password by issuing an HTTP `POST` request|
-| /api/logout  | POST           |Logout current user by issuing an HTTP `POST` request|
-| /api/user  | GET           |Validate and return the user info|
+| /api/register | POST  |Create a new email and password user by issuing an HTTP `POST` request|
+| /api/login    | POST  |Sign in a user with an email and password by issuing an HTTP `POST` request|
+| /api/logout   | POST  |Logout current user by issuing an HTTP `POST` request|
+| /api/user     | GET   |Validate and return the user info by inssuing an HTTP `GET` request|
 
 
 
